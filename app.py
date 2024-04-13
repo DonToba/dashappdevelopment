@@ -182,4 +182,4 @@ def run_analysis(n_clicks, latitude, longitude):
         return generate_report(latitude, longitude)
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)
